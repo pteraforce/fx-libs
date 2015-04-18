@@ -53,8 +53,6 @@ public class FileChooserDialog extends Dialog<File> {
 		// button
 		browseButton.setOnAction(event -> getFile());
 		
-		// this.defaultValue = defaultValue; // this line will become where acceptable file types are assigned
-		
 		grid = new GridPane();
 		grid.setHgap(10);
 		grid.setMaxWidth(Double.MAX_VALUE);
